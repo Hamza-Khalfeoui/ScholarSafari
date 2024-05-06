@@ -1,0 +1,779 @@
+
+nav{
+display: flex;
+justify-content: space-between;
+
+box-shadow: 0 2px 1px rgba(0, 0, 0, 0.436); 
+
+}
+.img{
+display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content:space-around;
+}
+.name1{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 900;
+    color: rgb(9, 72, 145);
+    
+}
+.name2{
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 900;color: rgb(92, 152, 242);
+}
+ 
+.scholarship-tooltip {
+    display: flex; 
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 50px;
+    cursor: pointer; 
+  }
+  
+  .scholarship-tooltip span {
+    color: rgb(9, 72, 145);
+  }
+  
+  .scholarship-tooltip ul {
+    display: none;
+    position: absolute; 
+    list-style: none;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1); 
+  }
+ 
+  .scholarship-tooltip:hover ul   {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .scholarship-tooltip  ul li {
+    padding: 15px 15px;
+  }
+  .scholarship-tooltip::after {
+    content: ""; 
+    position:absolute;
+    top:10%; 
+    left: 330px; 
+    width: 0;
+    height: 5px; 
+    background-color:rgb(4, 156, 204);
+    transition: width 0.2s ease-in-out; 
+  }
+  
+  .scholarship-tooltip:hover::after {
+    width: 7.5%; 
+  }
+
+
+
+
+ 
+  .Financial {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 45px;
+    margin-left: 60px;
+    cursor: pointer; 
+  }
+  
+  .Financial span {
+    color: rgb(9, 72, 145);
+  }
+  
+  .Financial ul {
+    display: none; 
+    position: absolute; 
+    list-style: none;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1); 
+  }
+ 
+  .Financial:hover ul   {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .Financial  ul li {
+    padding: 20px 15px;
+    
+    margin-right: 40px;
+  }
+  .Financial::after {
+    content: ""; 
+    position:absolute;
+    top:10%; 
+    left: 480px; 
+    width: 0; 
+    height: 5px; 
+    background-color:rgb(4, 156, 204); 
+    transition: width 0.2s ease-in-out; 
+  }
+  
+  .Financial:hover::after {
+    width: 8%;
+  }
+
+
+  .StudentLoans{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 45px;
+    margin-left: 60px;
+    cursor: pointer; 
+  }
+   .Financial span {
+    color: rgb(9, 72, 145);
+  } span {
+    color: rgb(9, 72, 145);
+  }
+  .StudentLoans::after {
+    content: "";
+    position:absolute;
+    top:10%; 
+    left: 630px; 
+    width: 0; 
+    height: 5px; 
+    background-color:rgb(4, 156, 204); 
+    transition: width 0.2s ease-in-out; 
+  }
+  
+  .StudentLoans:hover::after {
+    width: 8%;
+  }
+
+
+
+  .StudentDiscounts{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 45px;
+    margin-left: 60px;
+    cursor: pointer; }
+
+
+  .StudentDiscounts::after {
+    content: "";
+    position:absolute;
+    top:10%; 
+    left: 790px; 
+    width: 0; 
+    height: 5px; 
+    background-color:rgb(4, 156, 204); 
+    transition: width 0.2s ease-in-out; 
+  }
+  
+  .StudentDiscounts:hover::after {
+    width: 9%;
+  }
+
+
+
+
+
+
+
+
+  .Internships {
+    display: flex; 
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 50px;
+    cursor: pointer; 
+  }
+  
+  .Internships span {
+    color: rgb(9, 72, 145);
+  }
+  
+  .Internships ul {
+    display: none;
+    position: absolute; 
+    list-style: none;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1); 
+  }
+ 
+  .Internships:hover ul   {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .Internships  ul li {
+    padding: 15px 15px;
+  }
+  .Internships::after {
+    content: ""; 
+    position:absolute;
+    top:10%; 
+    left: 940px; 
+    width: 0;
+    height: 5px; 
+    background-color:rgb(4, 156, 204);
+    transition: width 0.2s ease-in-out; 
+  }
+  
+  .Internships:hover::after {
+    width: 7.5%; 
+  }
+  .login{
+    margin-top: 40px;
+    margin-left:150px;
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 900;color: rgb(67, 136, 238);
+  }
+  .button{
+    background-color: rgba(46, 164, 20, 0.527);
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left:70px;
+    height:50px;
+   width: max-content;
+    margin-top: 25px;
+  }
+  .SecGen{
+    /* background-color: rgba(164, 220, 248); */
+    background-image: url(HERO-01-6adaeaf0.webp);
+  }
+  .sec1{
+    max-width: 50%;
+  }
+  .text1{
+   
+    margin-left: 10px;
+    font-size: 80px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 750;
+    color: rgb(4, 52, 76);
+    margin-top: 800px;
+    margin-left:70px;
+  }
+  .text2{
+
+    margin-left: 10px;
+    font-size: 80px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 900;
+    color: rgb(4, 156, 204);
+    margin-left:70px;
+  }
+  .text3{
+    line-height: 50px;
+    font-size: 30px;
+    margin-left: 50px;
+  color: grey;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 350
+  }
+  .btn{
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(8, 156, 204) ;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 600;
+  height: 60px;
+  width: 400px;
+  margin-bottom: 60px;
+  }
+  .btn:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .find{
+    margin-left: 70px;
+  }
+.pic{
+  display: flex;
+  justify-content:flex-end;  /* Change to flex-start from center */
+  height:550px;
+}
+.description{
+  background-color: rgb(8, 156, 204);
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 250px;
+  
+}
+.qst{
+  line-height: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+  color: grey;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 450;
+  margin-top: 20px;
+}
+.rep{
+  line-height: 50px;
+  font-size: 30px;
+  margin-left: 50px;
+color: grey;
+font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+font-weight: 900;
+margin-top: 60px;
+}
+.details{
+  margin-right: 20px;
+  line-height: 50px;
+  font-size: 30px;
+  margin-left: 50px;
+color: grey;
+font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+font-weight: 400;
+margin-top: 60px;
+}
+.ver{
+  margin-left:  1000px;;
+  width: 22rem;
+  right: 140px;
+  margin-top:-400px;
+  margin-right: 200px;
+}
+.sec2{
+  background-color:white;
+  width: 50%;
+}
+.match{
+  margin-left: 150px;
+  width: 600px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.steps{
+  margin-left: 900px;
+  margin-top:-1050px;
+ 
+}
+.headings{
+  line-height: 50px;
+  font-size: 30px;
+  margin-left: 50px;
+color: rgb(95, 93, 93);
+font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+font-weight: 600;
+}
+.det{
+    font-size: 30px;
+    margin-left: 50px;
+  color: grey;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 350
+}
+.sec3{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+.align{
+  display: inline;
+  margin-left: 250px;
+}
+.text4{
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 750;
+  color: rgb(4, 52, 76);
+  
+}
+.text5{
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 900;
+  color: rgb(4, 156, 204);
+}
+
+.qst2{
+  line-height: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+  color: grey;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 450;
+  margin-top: 20px;
+  
+}
+
+.blocks{
+ display: flex;
+ margin-left: 100px;
+
+}
+.divR{
+  display: block;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.divM{
+  display: none;
+  background-color: whitesmoke;
+  width: 50%;}
+  #btn_divC{
+    border: none;
+    background-color: whitesmoke;}
+.bouton{
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+
+}
+#btn_divR{
+  border: none;
+  background-color: whitesmoke;
+}
+#btn_divM{
+  background-color: whitesmoke;
+  border: none;
+}
+#btn_divR:hover{
+ 
+  color:rgb(4, 156, 204) ;
+  background-color: whitesmoke;
+}
+#btn_divM:hover{
+  
+  color:rgb(4, 156, 204) ;
+  background-color: whitesmoke;
+}
+#btn_divC:hover{
+  color:rgb(4, 156, 204) ;
+  background-color: whitesmoke;
+} 
+
+
+.divC{
+  display: none;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.text6{
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 750;
+  color: rgb(4, 52, 76);
+}
+  .containR{
+  
+  margin-left: 50px;
+ 
+}  
+
+.detR{
+  font-size: 20px;
+    margin-left: 50px;
+  color: grey;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 350 
+}
+.checked{
+  display:flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.text7{
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 750;
+  color: grey;
+}
+.contain{
+  display: flex;
+  margin-left: 20px;
+}
+.containpic{
+  display: flex;
+  width: 400px;
+  height: 450px;
+  margin-left:700px;
+  margin-top:-450px;
+}
+.containpic1{
+  display: flex;
+  width: 400px;
+  height: 450px;
+  margin-left:800px;
+  margin-top:-450px;
+}
+.sec4{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.text8{
+  font-size: 2.2rem;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 750;
+  color: rgb(4, 52, 76);
+}
+.contain8{
+  display: flex;
+  justify-content: center;
+}
+.containCard1{
+  display: flex;
+  /* justify-content:center; */
+  margin-left: 250px;
+  
+}
+.card1{
+  margin-top: 100px;
+  border:none;
+  border-radius: 20px;
+  width: 1000px;
+  max-height: 450px;
+  background-color: #089ccc;
+}
+.parole{
+  margin-left: 50px;
+  width: 45%;
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+}
+.names{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: 750;
+  font-size: 30px;
+  
+}
+.namesContain{
+  display: flex;
+  margin-left: 90px;
+}
+.joshpic{
+  border-radius: 30px;
+  width: 500px;
+}
+.joshCont{
+display: flex;
+width: 100px;
+height: 500px;
+margin-top: 150px;
+margin-left: -450px;
+}
+
+.containCard2{
+  display: flex;
+  
+  
+}
+.containCard3{
+  display: flex;
+  
+}
+.sec5{
+  background-color: whitesmoke;
+  margin-top: 50px;
+  height: 1300px;
+}
+.partner{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sec6{
+  display: flex;
+  justify-content: center;
+}
+.detC{
+  display: flex;
+  justify-content: center;
+}
+.text9{
+  margin-left: 10px;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 900;
+  color: rgb(4, 156, 204);
+  margin-left:70px;
+}
+.ox{
+  display: flex;
+  /* justify-content: center; */
+   width: 100px;
+  height: 200px; 
+  margin-left: 450px;
+}
+.l1{
+  display: flex;
+  gap: 50px;
+  width: 100px;
+  height: 150px;
+  margin-top: 50px;
+   margin-left: 80px;
+}
+.toul{
+  display: flex;
+  width: 100px;
+  height: 150px;
+  margin-top: 100px;
+   margin-left: 650px;
+}
+.sec7{
+  margin-top: -15px;
+  background-color: #089ccc;
+  /* height: 500px; */
+  /* display: flex;
+  justify-content: center; */
+  
+}
+.tCont{
+  display: flex;
+  justify-content: center;
+}
+.text10{
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 900;
+  color: white;
+  /* margin-left: 100px;
+  margin-right: 80px; */
+}
+.text11{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+  font-weight: 900;
+  color: white;
+  margin-top: -20px;
+}
+.btnholder{
+  border: none;
+  border-radius: 50px;
+  color:#089ccc;
+  background-color:white ;
+  font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+font-size: 25px;
+font-weight: 600;
+height: 60px;
+width: 400px;
+margin-bottom: 60px;
+}
+.btnF{
+  display: flex;
+  justify-content: center;
+}
+.btnholder:hover{
+  text-decoration-line: underline;
+  cursor: pointer;
+  background-color:gainsboro;
+}
+.sec8{
+  display: flex;
+  
+  background-color: #08344c;
+}
+.footer{
+  display: flex;
+  margin-left: 100px;
+}
+.logo{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: -280px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.Contact{
+  color: white;
+}
+.infos{
+  color: white;
+}
+.contactholder{
+  margin-left: 50px;
+}
+a{
+  text-decoration: none;
+  text-decoration-line: none ;
+  color:white;
+}
+#testtt{
+  color: #089ccc;
+}

@@ -1,0 +1,479 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.436); 
+    
+    }
+    .img{
+    display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content:space-around;
+    }
+    .name1{
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: "Jost", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+        font-weight: 900;
+        color: rgb(9, 72, 145);
+        
+    }
+    .name2{
+        margin-top: 40px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-family: "Jost", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+        font-weight: 900;color: rgb(92, 152, 242);
+    }
+     
+    .scholarship-tooltip {
+        display: flex; 
+        justify-content: center;
+        margin-top: 45px;
+        margin-left: 50px;
+        cursor: pointer; 
+      }
+      
+      .scholarship-tooltip span {
+        color: rgb(9, 72, 145);
+      }
+      
+      .scholarship-tooltip ul {
+        display: none;
+        position: absolute; 
+        list-style: none;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1); 
+      }
+     
+      .scholarship-tooltip:hover ul   {
+        display:flex;
+        flex-direction: column;
+      }
+      
+      .scholarship-tooltip  ul li {
+        padding: 15px 15px;
+      }
+      .scholarship-tooltip::after {
+        content: ""; 
+        position:absolute;
+        top:10%; 
+        left: 330px; 
+        width: 0;
+        height: 5px; 
+        background-color:rgb(4, 156, 204);
+        transition: width 0.2s ease-in-out; 
+      }
+      
+      .scholarship-tooltip:hover::after {
+        width: 7.5%; 
+      }
+    
+    
+    
+    
+     
+      .Financial {
+        display: flex; 
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 45px;
+        margin-left: 60px;
+        cursor: pointer; 
+      }
+      
+      .Financial span {
+        color: rgb(9, 72, 145);
+      }
+      
+      .Financial ul {
+        display: none; 
+        position: absolute; 
+        list-style: none;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1); 
+      }
+     
+      .Financial:hover ul   {
+        display:flex;
+        flex-direction: column;
+      }
+      
+      .Financial  ul li {
+        padding: 20px 15px;
+        
+        margin-right: 40px;
+      }
+      .Financial::after {
+        content: ""; 
+        position:absolute;
+        top:10%; 
+        left: 480px; 
+        width: 0; 
+        height: 5px; 
+        background-color:rgb(4, 156, 204); 
+        transition: width 0.2s ease-in-out; 
+      }
+      
+      .Financial:hover::after {
+        width: 8%;
+      }
+    
+    
+      .StudentLoans{
+        display: flex; 
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 45px;
+        margin-left: 60px;
+        cursor: pointer; 
+      }
+       .Financial span {
+        color: rgb(9, 72, 145);
+      } span {
+        color: rgb(9, 72, 145);
+      }
+      .StudentLoans::after {
+        content: "";
+        position:absolute;
+        top:10%; 
+        left: 630px; 
+        width: 0; 
+        height: 5px; 
+        background-color:rgb(4, 156, 204); 
+        transition: width 0.2s ease-in-out; 
+      }
+      
+      .StudentLoans:hover::after {
+        width: 8%;
+      }
+    
+    
+    
+      .StudentDiscounts{
+        display: flex; 
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 45px;
+        margin-left: 60px;
+        cursor: pointer; }
+    
+    
+      .StudentDiscounts::after {
+        content: "";
+        position:absolute;
+        top:10%; 
+        left: 790px; 
+        width: 0; 
+        height: 5px; 
+        background-color:rgb(4, 156, 204); 
+        transition: width 0.2s ease-in-out; 
+      }
+      
+      .StudentDiscounts:hover::after {
+        width: 9%;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+      .Internships {
+        display: flex; 
+        justify-content: center;
+        margin-top: 45px;
+        margin-left: 50px;
+        cursor: pointer; 
+      }
+      
+      .Internships span {
+        color: rgb(9, 72, 145);
+      }
+      
+      .Internships ul {
+        display: none;
+        position: absolute; 
+        list-style: none;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1); 
+      }
+     
+      .Internships:hover ul   {
+        display:flex;
+        flex-direction: column;
+      }
+      
+      .Internships  ul li {
+        padding: 15px 15px;
+      }
+      .Internships::after {
+        content: ""; 
+        position:absolute;
+        top:10%; 
+        left: 940px; 
+        width: 0;
+        height: 5px; 
+        background-color:rgb(4, 156, 204);
+        transition: width 0.2s ease-in-out; 
+      }
+      
+      .Internships:hover::after {
+        width: 7.5%; 
+      }
+      .login{
+        margin-top: 40px;
+        margin-left:150px;
+        font-size: 15px;
+        font-family: "Jost", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+        font-weight: 900;color: rgb(67, 136, 238);
+      }
+      .button{
+        background-color: rgba(46, 164, 20, 0.527);
+        color: white;
+        font-family: "Jost", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        border: none;
+        border-radius: 20px;
+        margin-left:70px;
+        height:50px;
+       width: max-content;
+        margin-top: 25px;
+      }
+.sec11{
+    display: flex;
+    justify-content: center;
+    background-color: #265e7b;
+    height:120px;
+  }
+  .text20{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 900;
+    color: white;
+    margin-top: -0.1px;
+  }
+  .backgrd{
+    margin-top: -49.5px;
+    background-image: url(snapedit_1714521299858.png);
+   height:700px;
+  }
+  .texthold{
+    width: 40%;
+  }
+  
+  .text13{
+    line-height: 40px;
+      font-size: 20px;
+      margin-left: 50px;
+    color: grey;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 350;
+  }
+  .btnex{
+    display: inline-block;
+    border: none;
+      width: 70px; 
+      height: 70px; 
+      border-radius: 50%; 
+      background-color: #089ccc; /* Change color to your desired button color */
+      color: #ffffff; 
+      text-align: center;
+      line-height: 50px; 
+      font-size: 16px;
+      
+      
+  }
+  .btnex:hover {
+    background-color:#3fade4; /* Change color on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+    text-decoration-line: underline;
+  }
+  .btnhold{
+    
+    display: flex;
+    justify-content: center;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+    text-decoration-line:none; 
+  }
+  
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  
+  
+  :root{
+   
+    --font: 'Poppins', sans-serif;
+  
+   
+    --color:#089ccc ;
+    --bg-color: #f4f4f4;
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .swiper{
+    width: 100%;
+  }
+  
+  .swiper-wrapper{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card{
+    width: 20em;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.304);
+    padding: 2em 1em;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em;
+  }
+  .card:hover{
+    background-color: #089bcc35;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.902);
+  }
+  
+  .card__image{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid var(--color);
+    padding: 3px;
+    margin-bottom: 2em;
+  }
+  
+  .card__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .card__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card__title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+  }
+  
+  .card__name{
+    color: var(--color);
+  }
+  
+  .card__text{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em 0;
+  }
+  
+  .card__btn{
+    background-color: var(--color);
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+  }
+  .card__btn:hover{
+    background-color: rgb(171, 164, 164);
+  }
+  .sec8{
+    display: flex;
+    background-color: #08344c;
+  }
+  .footer{
+    display: flex;
+    margin-left: 100px;
+  }
+  .logo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: -280px;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .Contact{
+    color: white;
+  }
+  .infos{
+    color: white;
+  }
+  .contactholder{
+    margin-left: 50px;
+  }
+  .text10{
+    font-size: 50px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 900;
+    color: white;
+    /* margin-left: 100px;
+    margin-right: 80px; */
+  }
+  a{
+    text-decoration: none;
+    text-decoration-line: none ;
+    color:white;
+  }
+  /* .swiper{
+    background-color: #089ccc;
+  } */

@@ -1,0 +1,35 @@
+const scholarshipTooltip = document.querySelector('.scholarship-tooltip');
+const scholarshipList = scholarshipTooltip.querySelector('ul');
+
+scholarshipTooltip.addEventListener('focus', () => {
+  scholarshipList.style.display = 'block';
+});
+
+scholarshipTooltip.addEventListener('blur', () => {
+  scholarshipList.style.display = 'none';
+});
+
+
+const Financial = document.querySelector('.Financial');
+const FinancialList = Financial.querySelector('ul');
+
+Financial.addEventListener('focus', () => {
+  FinancialList.style.display = 'block';
+});
+
+Financial.addEventListener('blur', () => {
+  FinancialList.style.display = 'none';
+});
+
+
+
+const Internships = document.querySelector('.Internships');
+const InternshipsList = Internships.querySelector('ul');
+
+Internships.addEventListener('focus', () => {
+  InternshipsList.style.display = 'block';
+});
+
+Internships.addEventListener('blur', () => {
+  InternshipsList.style.display = 'none';
+});
